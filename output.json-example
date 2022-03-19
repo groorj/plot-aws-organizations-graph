@@ -1,0 +1,78 @@
+{
+    "Accounts": [
+
+        {
+            "Id": "000000000001",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000001",
+            "Email": "account-000000000001@example.com",
+            "Name": "Account 000000000001",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2019-11-18T19:27:04.322000-05:00"
+        },
+        {
+            "Id": "000000000002",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000002",
+            "Email": "account-000000000002@example.com",
+            "Name": "Account 000000000002",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2014-12-21T07:21:22.355000-05:00"
+        },
+        {
+            "Id": "000000000003",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000003",
+            "Email": "account-000000000003@example.com",
+            "Name": "Account 000000000003",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2011-09-29T06:19:39.272000-04:00"
+        },
+        {
+            "Id": "000000000004",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000004",
+            "Email": "account-000000000004@example.com",
+            "Name": "Account 000000000004",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2020-02-06T06:04:22.037000-05:00"
+        },
+        {
+            "Id": "000000000005",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000005",
+            "Email": "account-000000000005@example.com",
+            "Name": "Account 000000000005",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2008-09-30T09:45:44.274000-04:00"
+        },
+        {
+            "Id": "000000000006",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000006",
+            "Email": "account-000000000006@example.com",
+            "Name": "Account 000000000006",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2020-04-06T21:07:10.097000-04:00"
+        },
+        {
+            "Id": "000000000007",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000007",
+            "Email": "account-000000000007@example.com",
+            "Name": "Account 000000000007",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2014-07-27T20:12:08.208000-04:00"
+        },
+        {
+            "Id": "000000000008",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000008",
+            "Email": "account-000000000008@example.com",
+            "Name": "Account 000000000008",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2009-07-15T04:37:15.196000-04:00"
+        }
+    ]
+}
+
