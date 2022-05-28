@@ -86,6 +86,21 @@ aws organizations list-accounts --output json > output.json
 python3 organizations.py
 ```
 
+## Files
+```
+.
+├── LICENSE -> This project's license
+├── README.md -> This file
+├── aws-map-my-organization-example.png -> An example image of the result
+├── generate_output.py -> This file generates random dummy data so you can test it
+├── my-org.gv -> File containing Graphviz information that will be generated
+├── my-org.gv.pdf -> This is the graph result file that will be generated with the data you provide
+├── organizations.py -> Python script that plots the graph
+├── output.json -> This is the source data file that will be used by 'organizations.py'
+└── output.json-example -> Provided data example file that you can use by renaming it to 'output.json' and running 'organizations.py'
+```
+
+
 ## Clean up
 No AWS resources will be created so no clean up is needed.
 
