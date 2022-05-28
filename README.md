@@ -91,4 +91,4 @@ No AWS resources will be created so no clean up is needed.
 
 
 ## Notes
-Running this code will create AWS resources in your account that might not be included in the free tier.
+Make sure you have read access to your AWS Root account so you can generate your AWS Organizations output.json file.
