@@ -97,7 +97,7 @@ aws organizations list-accounts --output json > output.json
         },
         {
             "Id": "100001000000",
-            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000008",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/100001000000",
             "Email": "my-aws-account2@yahoo.com",
             "Name": "Account 100001000000",
             "Status": "ACTIVE",
