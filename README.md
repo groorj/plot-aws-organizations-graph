@@ -81,6 +81,33 @@ You will need read access to your Root account in order to gather the required i
 aws organizations list-accounts --output json > output.json
 ```
 
+**Result example:**
+```json
+{
+    "Accounts": [
+
+        {
+            "Id": "100000000001",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000001",
+            "Email": "myawsaccount1@gmail.com",
+            "Name": "Account 100000000001",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2019-01-29T12:32:01.150000-05:00"
+        },
+        {
+            "Id": "100001000000",
+            "Arn": "arn:aws:organizations::999999999999:account/o-0rgan1zat1/000000000008",
+            "Email": "my-aws-account2@yahoo.com",
+            "Name": "Account 100001000000",
+            "Status": "ACTIVE",
+            "JoinedMethod": "CREATED",
+            "JoinedTimestamp": "2020-03-18T11:06:05.432000-04:00"
+        }
+    ]
+}
+```
+
 ### Plot an AWS Organizations Graph based on your Organization information
 ```bash
 python3 organizations.py
